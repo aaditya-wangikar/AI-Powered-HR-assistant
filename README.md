@@ -3,7 +3,7 @@ A conversational chatbot that responds to user inquiries using PD0F document inf
 This script creates a Retrieval-Augmented Generation (RAG) chatbot that answers questions about the Nestlé HR Policy PDF.
 
 1. Reads OpenAI API key from a text file. Note: Create a text file API_KEY.txt and copy your openai api key
-2. Loads the Nestle HR PDF.3
+2. Loads the Nestle HR PDF.
 3. Cleans and chunks the text for embedding.
 4. Builds a vector database (Chroma) for semantic search.
 5. Uses OpenAI embeddings to encode text.
